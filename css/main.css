@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Denk One";
+  font-family: Georgia, serif;
   background-color: #f5f2f0;
 }
 
@@ -15,9 +15,11 @@ body {
 
 img {
   width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 h1 {
+  font-family: "Denk One";
   margin-bottom: 1.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -26,6 +28,7 @@ h1 {
 }
 
 h2 {
+  font-family: "Denk One";
   color: #623b0c;
 }
 
