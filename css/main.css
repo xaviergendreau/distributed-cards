@@ -1,9 +1,68 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Georgia;
   line-height: 1.5;
+  background-color: #f5f2f0;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  margin: 1.5rem;
+  font-family: "Denk One";
+  color: #623b0c;
+}
+
+h2 {
+  font-family: "Denk One";
+  color: #623b0c;
+}
+
+p {
+  font-family: Georgia;
+  color: #000;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 0 1.5rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff
+  padding: 1.125rem;
+  border: 2px solid #623b0c;
+  border-radius: 8px;
+  background-color: #ede3db;
+}
+
+li
+p, h2, img {
+  padding: 0 .75rem;
+}
+
+li a {
+  padding: .5em .75em .6em;
+  background-color: #623b0c;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  margin: 1.5rem;
 }
